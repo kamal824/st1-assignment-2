@@ -1,0 +1,147 @@
+Activity 1 – Think-Pair-Share
+    Understanding requirements – knowing what the client and users actually need.
+2. System design and problem-solving – deciding how the software should work and how different parts should connect.
+3. Testing, security and risk management – checking that the AI-generated code is correct, safe, secure and reliable.
+
+
+
+
+
+Activity - 2 
+Software engineering?
+Why?
+A
+Yes
+Not necessarily
+A
+ 50-line calculator mainly involves writing code.
+ It may not involve complex requirements, testing,
+  maintenance or multiple stakeholders.
+
+B
+Yes,A payroll system for 5,000 employees requires 
+requirements analysis, security, testing, maintenance,
+ reliability and consideration of many users and stakeholders.
+
+C
+Yes
+Not necessarily
+AI can generate the application, but simply
+ generating code from one prompt does not mean the software 
+ has been properly analysed, tested or designed.
+
+
+Activity - 3
+
+Stakeholder
+What do they need?
+Patients
+Easy appointment booking, accurate 
+records and privacy of their information.
+Doctors/Practitioners
+Quick access to patient information and appointment schedules.
+Receptionists/Clinic staff
+Easy patient registration and appointment management.
+Clinic management
+Reliable reports, efficient processes and secure records.
+IT/System administrators
+A secure, reliable and maintainable system.
+
+
+Task 2 – Identify current problems
+
+1. Paper records can be lost, damaged or difficult to find.
+2. Spreadsheets can contain errors or duplicate information.
+3. Managing appointments manually can cause scheduling conflicts and missed appointments.
+4. It may be difficult for staff to quickly access and update accurate patient information.
+
+Task 3 – Ask client questions
+
+The purpose here is to show that the original client statement is missing important requirements.
+
+1. Who will use the new system?
+2. What information about patients needs to be stored?
+3. How are appointments currently booked, changed and cancelled?
+4. Who should be allowed to access patient records?
+5. Does the clinic need the system to integrate with any existing software or systems?
+
+
+
+Appointment management
+
+Yes – client specifically mentions appointments.
+
+Yes
+
+Include
+
+Facial recognition login
+
+No evidence.
+
+Not established
+
+Do not include unless client requests it
+
+AI diagnosis recommendations
+
+No evidence.
+
+Not established and high risk
+
+Do not include
+
+Patient search
+
+Yes – useful for managing patient records.
+
+Likely yes
+
+Include / confirm with client
+
+Online payment
+
+No evidence.
+
+Not established
+
+Do not include unless required
+
+Practitioner schedule view
+
+Related to appointment management.
+
+Likely yes
+
+Include / confirm with client
+
+Insurance processing
+
+No evidence.
+
+Not established
+
+Do not include
+
+Automatic treatment-plan generation
+
+No evidence.
+
+Not established and high risk
+
+Do not include
+
+
+Why shouldn’t we automatically trust AI?
+
+AI can generate useful ideas, but it doesn’t automatically know the client’s real requirements. It can make assumptions, misunderstand the problem, suggest unnecessary features, or produce unsafe recommendations. A software engineer must verify AI output against requirements, stakeholders, security, legal obligations and risks.
+
+⸻
+
+Exit Question
+
+Write one activity that a software engineer must perform and that cannot safely be delegated entirely to AI.
+
+Understanding and validating the client’s requirements with stakeholders.
+
+A software engineer must talk to the client and users, clarify what they actually need, identify risks and make sure the requirements are correct. AI can help suggest questions or ideas, but it should not make these decisions independently.

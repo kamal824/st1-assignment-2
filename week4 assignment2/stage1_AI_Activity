@@ -1,0 +1,7 @@
+SmartCare v0.1 – Initial Engineering Brief
+
+1. Problem summary
+
+SmartCare Community Clinic currently uses spreadsheets and paper records to manage patients and appointments. This can make information difficult to find, update and maintain accurately. The clinic wants software to help manage patients, practitioners and appointments more efficiently. The system should make it easier for staff to access and update information while reducing manual work and possible errors. However, the client’s statement is not yet a complete specification. More information is needed about users, required features, security, patient information, appointment rules and access permissions. These requirements should be discussed with the client before development begins.
+
+⸻

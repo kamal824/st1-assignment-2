@@ -1,0 +1,35 @@
+SmartCare v0.1 – Initial Engineering Brief and AI Activity Card
+
+1. Problem Summary
+SmartCare Community Clinic currently uses a combination of spreadsheets to manage patients and appointments which make it difficult for staff to find, update and organise information on daily basis. The clinic wants a software to be designed in such a way  that can help manage patients, practitioners and appointments record easily and keep them sorted at one place . The new system should make everyday tasks easier for clinic staff while keeping patient information accurate and secure. At this stage, the client’s requirements are only a starting point, so more information is needed before development begins. The software requirements, users, security needs and specific features should be discussed with the client before deciding on the final system.
+
+2. Initial Stakeholders
+Stakeholder	What do they need?
+Patients	 Making booking easily, their record to be maintained properly, privacy provided to them.
+Practitioners	Getting fast access to the patients records from the system and got their proper schedule to work 
+Reception	Easy management of the appointments, fast process for registering the patients and easy way for keeping track of the records of the patient 
+System administrator	A proper secure and maintainable software which is easy to maintain 
+
+
+
+3. Initial Features
+
+Feature	Confirmed or provisional?	Why?
+Patient management	Confirmed	The client specifically said the software should help manage patients. records.
+Practitioner management	Confirmed	Managing practitioners was directly included in the client’s statement as per their availability.
+Appointment management	Confirmed	The client specifically mentioned managing appointments as per their favoured time.
+Patient search	Provisional	Keeping track of the patients records should be easily, as it is not demanded by the client 
+Practitioner schedule view	Provisional	It would support appointment management, but the client has not confirmed exactly how practitioner schedules should work.
+
+4. Questions for the Client
+1.	What record about patients, practitioners need to be stored in the system?
+2.	Who should be given access to view, add, edit or delete patient information?
+3.	How should appointments be managed by the patients?
+4.	Do patients be given access to book their appointments online ?
+5.	What security, privacy and backup requirements do the clinic have for patient information?
+
+5. What We Do Not Yet Know
+1.	We do not yet know what information is needed to be stored for each patient, practitioner and appointment in the system.
+2.	We do not know which users should have access to different types of information or what permissions they should have .
+3.	We do not yet know the full list of required features, technical requirements, security requirements or how the new system will fit into the clinic’s existing processes.
+

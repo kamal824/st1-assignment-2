@@ -1,0 +1,57 @@
+Stage 1 Tutorial Activity — Answers
+Activity 1 – Think-Pair-Share
+If ChatGPT or Copilot can produce a 100-line Python application very quickly, what knowledge does a software engineer still need?
+1.	Requirements checklist – we need to know at very first what does the client needs or is expecting from the software to do 
+2.	Designing of the system – we need to design the software and make a proper model for the software that how should it work and fulfill the client needs 
+3.	Testing and evaluation – The testing part of the software is must we need to make a set of proper tests required for the software to ensure the software works properly and complete all the tests.
+
+
+Activity 2 – Is This Software Engineering?
+Scenario	Programming?	Software engineering?	Why?
+A. A student writes a 50-line Python calculator.	Yes	Not necessarily	The student is writing 50-line python code which he is designing for solving the problem so yes, it’s like designing of the software and it is part of software engineering.
+B. A team develops a payroll system used by 5,000 employees.	Yes	Yes	Yes, this task involves the designing, testing, evaluation and many other elements of the software required to work 
+C. An AI assistant generates a simple appointment application from one prompt.	Yes	Not by itself	Yes, generating the code is also a programming but not complete software engineering because it includes testing, security evaluation and to check whether the code meets the clients’ requirements or not 
+ 
+Activity 3 – SmartCare Problem Analysis
+Task 1 – Identify stakeholders
+Stakeholder	What do they need?
+Patients	 Making booking easily, their record to be maintained properly, privacy provided to them.
+Practitioners	Getting fast access to the patients records from the system and got their proper schedule to work 
+Reception	Easy management of the appointments, fast process for registering the patients and easy way for keeping track of the records of the patient 
+System administrator	A proper secure and maintainable software which is easy to maintain 
+
+Task 2 – Identify current problems
+1.	Duplication of the information of the records like the patient records or the duplicate schedule of the doctors 
+2.	Hard for keeping the track of the patients records and to manage the spreadsheets 
+3.	long time for accessing the information or record of the patients and the doctors 
+4.	High risk to the privacy of the records from accessing the data by unauthorised users 
+
+
+Task 3 – Ask client questions
+1.	What information about patients’ needs to be stored in the new system?
+2.	Who should be allowed to view or change patient records?
+3.	How should patients make, cancel, or reschedule appointments?
+4.	What reports or information does clinic management need?
+5.	What security, privacy, backup, and data-retention requirements does the clinic have?
+
+
+
+
+Activity 4 – Critique an AI Response
+Suggestion	Client evidence?	In scope?	Decision
+Appointment management	Yes – the client specifically mentions appointments.	Yes	Include
+Facial recognition login	No evidence provided.	Not established	Reject/defer
+AI diagnosis recommendations	No evidence provided.	Potentially outside the stated scope and high-risk	Reject
+Patient search	Yes – patient records need to be managed.	Yes	Include
+Online payment	No evidence provided.	Not established	Defer/reject
+Practitioner schedule view	Yes – closely related to appointment management.	Likely yes	Include
+Insurance processing	No evidence provided.	Not established	Defer/reject
+Automatic treatment-plan generation	No evidence provided.	Outside the stated requirements and potentially high-risk	Reject
+
+
+
+
+Exit Question
+One activity that a software engineer must perform and cannot safely delegate entirely to AI is requirements analysis and validation.
+A software engineer must communicate with the stakeholders and keep the proper record of the client needs and what they expect from the software to do, consider risks and constraints, and decide whether proposed features are appropriate. AI can assist with this process, but its suggestions must be checked by a qualified human because AI output can be incorrect, incomplete, or unsuitable for the real-world situation.
+
