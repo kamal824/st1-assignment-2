@@ -1,0 +1,38 @@
+SmartCare v0.1 – Initial Engineering Brief and AI Activity Card
+
+Part A — Understand the Problem
+
+What data must be stored in the system?
+•	Patient name
+•	Practitioner name
+•	Appointment time
+•	Practitioner schedule 
+
+What functions might be useful?
+•	book_appointment() — to command a new appointment for the patient.
+•	display_appointments() — to display all the recorded information of the appointments of the patients.
+•	A function to keep a check whether required information has been entered.
+What could go wrong?
+•	Incorrect patient’s record
+•	Incorrect practitioner’s Record
+•	Missing appointment time of the patients
+•	collaboration of the two patients time at same time from the same practitioner 
+•	Improper format of keeping record of the patient 
+
+What requirements are unclear?
+•	Whether the patient can book their appointment themselves online 
+•	Whether appointments need to be saved permanently in the memory or for the temporary time.
+•	Whom should be permitted the access to the information 
+
+Part B — Human Written Prototype
+
+five limitations
+1.	Appointments are not saved permanently.  Appointments are not sotred in the memory permanently, they disappear when the program closes.
+2.	There is no proper management for keeping the data or the record of the patient’s information 
+3.	There is no proper management of the appointments time and a program to keep check the schedule and the appointments of the patients are properly matched or not 
+4.	There is no proper format set up for the Patients required to book an appointment 
+5.	There is no Login system in the software so the patient cannot keep the track of their appointment details properly 
+6.	There is not provided the proper feature in the system to edit the appointment 
+
+
+

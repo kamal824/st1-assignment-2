@@ -1,0 +1,98 @@
+SmartCare v0.2 – Requirements Specification
+
+1. Problem and Scope
+SmartCare uses spreadsheets to manage their data which causes high risk to them of causing error, they need a proper system to manage their data properly, easily and fast and managing the data by spreadsheets also increases chances of duplication of the data.  The proposed SmartCare system will provide a simple system for clinic staff to manage patient records, practitioner information and appointments. The system also provides an easy way to manage and modify the data as well. 
+2. Stakeholders
+Stakeholder	Need	Evidence
+Patients	Proper information of them for the appointment.	Patients Records are managed by the clinic 
+Practitioners	Proper Access provided to them about their schedules 	The system needs to manage the 
+Reception/Admin Staff	An efficient way to manage patients and appointments.	The current process uses spreadsheets and paper records.
+Clinic Manager	Reliable and organised information and improved administrative efficiency.	The clinic wants software to improve its current processes.
+System Administrator	A fully secure software that is easily maintainable.	The privacy is needed for the patient’s information.
+
+
+
+
+3. Functional Requirements
+FR-01: The system shall allow staff to create a patient record 
+FR-02: The system shall allow staff to get access about the patient information 
+FR-03: The system shall allow staff to search for the patient records on the system 
+FR-04: The system shall allow staff to modify the patient’s information 
+FR-05: The system should allow the staff to match the patient information with the practitioner 
+FR-06: The system should give the access of the practitioner information like their schedule  to the staff
+FR-07: The system should allow the staff to create an appointment in a proper valid format carrying proper details about the patient 
+FR-08: The system should provide the access to the staff about the patients old history 
+FR-09: The system shall allow authorised staff to search for appointments using relevant information such as patient or practitioner.
+FR-10: The system shall allow authorised staff to update or reschedule an existing appointment.
+FR-11: The system shall allow authorised staff to cancel an appointment.
+FR-12: The system should prevent the practitioner as well from booking two appointments of the patients at the same time 
+
+
+4. Non-Functional Requirements
+
+NFR-01: The system should be design in an order to protect the data from the unauthorised access 
+NFR-02: The system shall be easy for reception and administrative staff to learn and use.
+NFR-03: The system should provide the error messages if there is data been entered in invalid format.
+NFR-04: The system shall respond to normal searches and appointment operations within a reasonable amount of time.
+NFR-05: The system is needed to maintain proper database record of patient, practitioner and appointment details 
+NFR-06: The system shall support regular data backup so that important information can be recovered if data is lost.
+
+5. User Stories
+US-01: As a patient I want to book an appointment with the practitioner from the staff
+US-02: As a receptionist, I want easy and fast  access to the patient information so that I could access there data Fastly 
+US-03: As a receptionist, I want to book an appointment for a patient, so that the patient’s visit can be recorded.
+US-04: As a practitioner I want my schedule details so I can see when I have to meet patients and which patients.
+US-05: As a receptionist, I want to modify the details of the patient and keep the record up to date 
+US-06: As a clinic manager, I want patient and appointment information to be stored securely and accurately, so that the clinic can operate efficiently and protect patient information.
+
+
+6. Acceptance Criteria
+Booking Appointment 
+GIVEN an authorised receptionist has entered a valid patient, practitioner and appointment time
+WHEN the receptionist submits the appointment
+THEN the system shall save the appointment and display it in the appointment list.
+
+
+Invalid Patient Name
+Reception try to book an appointment, but the patient name is valid 
+THEN the system shall reject the appointment and display a clear error message.
+Double Booking
+GIVEN a practitioner already has an appointment at a particular date and time
+WHEN a receptionist attempts to book another appointment for the same practitioner at that time
+THEN the system shall reject the booking and inform the receptionist that the practitioner is already booked.
+
+
+7. Assumptions and Open Questions
+Assumptions
+•	The initial user of the system is the staff members of the reception.
+•	Proper privacy is provided to the patient information 
+•	There is proper format entered in the appointment.
+•	A practitioner should not have two appointments at the same time.
+•	The system will initially focus on appointment and basic record management rather than advanced medical functions.
+
+Open Questions
+•	What exact patient information needs to be stored?
+•	What exact practitioner information needs to be stored?
+•	Should patients be able to book and cancel their own appointments?
+•	What format should be used for appointment dates and times?
+•	How long should patient and appointment records be kept?
+
+
+
+
+
+
+
+
+8. AI Requirements Review Record
+
+AI suggestion	Evidence?	Decision	Reason	Verification
+Appointment management	Yes	Include	The client specifically said the software should manage appointments.	Confirmed against the original client statement.
+Patient search	Partial	Include provisionally	Searching records is useful for managing patients, but the client did not explicitly mention search.	Should be confirmed with the client.
+Practitioner schedule view	Partial	Include provisionally	It logically supports practitioner and appointment management.	Should be confirmed with the client.
+Facial recognition login	No	Exclude	There is no client evidence that facial recognition is required.	Checked against the original scope.
+AI diagnosis recommendations	No	Exclude	This was not requested and would introduce significant medical and safety concerns.	Checked against the original scope and requirements.
+Online payment	No	Exclude	The client did not mention payments or online transactions.	Checked against the original client statement.
+Insurance processing	No	Exclude	There is no evidence that insurance processing is part of the clinic’s requested system.	Checked against the original scope.
+Automatic treatment-plan generation	No	Exclude	This is outside the stated scope and would involve high-risk medical decisions.	Checked against the original client statement.
+The AI suggestions were treated as ideas rather than confirmed requirements. Features were only included when they had evidence from the client statement or clearly supported the stated purpose of the system. Features without evidence were excluded or marked as provisional. This demonstrates that AI-generated suggestions need to be reviewed and verified before becoming software requirements.

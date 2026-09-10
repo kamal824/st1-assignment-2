@@ -1,7 +1,17 @@
 print("Welcome to SmartCare!")
 ## improvement 
-if not patient1_name:
-    raise ValueError("Patient name cannot be empty")
+def book_appointment(patient_name, practitioner_name, appointment_time):
+    if not patient_name:
+        raise ValueError("Patient name cannot be empty")
+
+    appointment = {
+        "patient": patient_name,
+        "practitioner": practitioner_name,
+        "time": appointment_time
+    }
+
+    appointments.append(appointment)
+
 #first Appointment 
 patient1_name="Alice SMith"
 practitioner1_name = "Dr. John Doe"
